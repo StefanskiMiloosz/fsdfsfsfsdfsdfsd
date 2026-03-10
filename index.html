@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .d1{
+            height: 200px;
+            width: 200px;
+            background-color: orange
+        }
+        .d1:hover{
+            background-color: red;
+            width: 300px;
+            transition: 3s;
+        }
+        .d2{
+            height: 120px;
+            width: 120px;
+            background-color: purple;
+            color: purple;
+
+            
+        }
+        .d2:hover{
+            background-color: blue;
+            transform: translate(200px);
+            transition: 3s linear;
+            color: white;
+        }
+        .d3{
+            height: 120px;
+            width: 120px;
+            background-color: purple;
+            color: purple;
+        }
+        .d3:hover{
+            background-color: blue;
+            transform: translate(200px);
+            transition: 3s ease;
+            color: white;
+        }
+        .d4{
+            height: 120px;
+            width: 120px;
+            background-color: purple;
+            color: purple;
+        }
+        .d4:hover{
+            background-color: blue;
+            transform: translate(200px);
+            transition: 3s ease-in;
+            color: white;
+        }
+        .d5{
+            height: 120px;
+            width: 120px;
+            background-color: purple;
+            color: purple;
+        }
+        .d5:hover{
+            background-color: blue;
+            transform: translate(200px);
+            transition: 3s ease-out;
+            color: white;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="d1">
+        Mega fajny tekst
+    </div>
+
+    <div class="d2" id="1">
+        linear 
+    </div>
+
+    <div class="d3" id="1">
+        ease
+    </div>
+
+    <div class="d4" id="1">
+        ease-in
+    </div>
+
+    <div class="d5" id="1">
+        ease-out
+    </div>
+    
+</body>
+</html>
